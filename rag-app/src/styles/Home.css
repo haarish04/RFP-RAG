@@ -1,0 +1,27 @@
+.home-container {
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 100vh;
+   }
+   .box {
+    border: 5px solid #0bc0ee;
+    padding: 20px;
+    margin-left:10px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    font-family: sans-serif;
+
+   }
+   .box img {
+    width: auto;
+    height: 100px;
+   }
+   .box:hover {
+    transform: scale(1.05);
+   }

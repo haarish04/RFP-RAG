@@ -1,0 +1,55 @@
+.query-form-container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    padding: 1.5rem;
+    border: 5px solid #0bc0ee;
+    border-radius: 8px;
+    font-family: sans-serif;
+    text-align: left;
+   }
+   .query-form-container h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+   }
+   .query-form-container form {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+   }
+   .query-form-container input[type="text"] {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+   }
+   .query-form-container button {
+    padding: 0.5rem 1rem;
+    background-color: #0bc0ee;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   }
+   .query-form-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+   }
+   .error {
+    color: red;
+    font-size: 0.9rem;
+   }
+   .results, .llm-answer {
+    margin-top: 1.5rem;
+   }
+   .result-item {
+    background: #f7f7f7;
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-radius: 4px;
+   }
+   .llm-answer {
+    background: #e6f7ff;
+    padding: 1rem;
+    border-radius: 4px;
+   }
