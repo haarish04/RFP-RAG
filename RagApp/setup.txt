@@ -1,0 +1,35 @@
+List of frameworks and dependencies required for the setup of the project:
+
+git clone {url of project}
+Backend server:
+
+Install
+Python 3.11
+pip 23.0.1
+
+Setup python virtual environment
+# Create a virtual environment
+python -m venv myenv
+
+# Activate the virtual environment (Windows)
+myenv\Scripts\activate
+
+# Activate the virtual environment (Unix or MacOS)
+source myenv/bin/activate
+
+Run pip install -r requirements.txt
+
+LLM to be decided, currently using LLAMA3-demo from together.ai using API keys.
+Update the LLM function call
+
+Database:
+
+Docker latest
+Database hosted locally using docker
+pull Chromadb image from registry
+
+Frontend:(optional)
+
+npm 11.3.0
+node v22.15.0
+npm create vite@latest rag-app -- --template react
